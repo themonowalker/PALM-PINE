@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>The Palm & Pine House</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+
+<nav class="navbar">
+
+    <img src="images/logo.JPEG" class="logo" alt="Logo">
+
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+
+</nav>
+
+<!-- HERO SECTION -->
+
+<section class="hero">
+
+    <div class="slide active">
+        <img src="images/slide1.jpeg" alt="">
+    </div>
+
+    <div class="slide">
+        <img src="images/slide2.jpeg" alt="">
+    </div>
+
+    <div class="slide">
+        <img src="images/slide3.jpeg" alt="">
+    </div>
+
+    <div class="overlay"></div>
+
+    <div class="hero-content">
+
+        <h1>The Palm & Pine House</h1>
+
+        <p>An Ettuveettil Heritage Retreat</p>
+
+    </div>
+
+</section>
+
+<!-- ABOUT -->
+
+<section id="about" class="section">
+
+    <div class="about-container">
+
+        <h2>Welcome to The Palm & Pine House</h2>
+
+        <h3>An Ettuveettil Heritage Retreat</h3>
+
+        <p class="about-intro">
+            Experience the perfect blend of traditional Kerala heritage and coastal tranquility.
+            Inspired by the classic architecture of the region, The Palm & Pine House offers a
+            peaceful escape wrapped in local history and timeless charm.
+        </p>
+
+        <div class="about-card">
+
+            <h4>Your Coastal Sanctuary</h4>
+
+            <div class="about-item">
+
+                <h5>Perfect Location</h5>
+
+                <p>
+                    Nestled in the beautiful coastal town of Varkala, placing you just minutes
+                    away from the dramatic red cliffs of Varkala Beach.
+                </p>
+
+            </div>
+
+            <div class="about-item">
+
+                <h5>Local Attractions</h5>
+
+                <p>
+                    Enjoy easy access to nearby spots, including the vibrant marine life at the
+                    Varkala Aquarium.
+                </p>
+
+            </div>
+
+            <div class="about-item">
+
+                <h5>Relax & Unwind</h5>
+
+                <p>
+                    Whether you want to catch an epic ocean sunset, explore local cliffside
+                    cafes, or simply relax under the shade of our trees, we provide the perfect
+                    backdrop for your getaway.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- GALLERY -->
+
+<section id="gallery" class="section">
+
+    <h2>Gallery</h2>
+
+    <div class="gallery">
+
+        <img src="images/gallery1.jpeg" onclick="openImage(0)">
+        <img src="images/gallery2.jpeg" onclick="openImage(1)">
+        <img src="images/gallery3.jpeg" onclick="openImage(2)">
+        <img src="images/gallery4.jpeg" onclick="openImage(3)">
+        <img src="images/gallery5.jpeg" onclick="openImage(4)">
+        <img src="images/gallery6.jpeg" onclick="openImage(5)">
+        <img src="images/gallery7.jpeg" onclick="openImage(6)">
+        <img src="images/gallery8.jpeg" onclick="openImage(7)">
+        <img src="images/gallery9.jpeg" onclick="openImage(8)">
+        <img src="images/gallery0.jpeg" onclick="openImage(9)">
+
+    </div>
+
+</section>
+
+<!-- LIGHTBOX -->
+
+<div id="lightbox">
+
+    <span class="close" onclick="closeImage()">&times;</span>
+
+    <span class="prev" onclick="prevImage()">❮</span>
+
+    <img id="lightbox-img" alt="">
+
+    <span class="next" onclick="nextImage()">❯</span>
+
+</div>
+
+<!-- FLOATING CONTACTS -->
+
+<div class="floating-icons">
+
+    <a href="https://wa.me/917592841880" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <a href="https://instagram.com/monowalkercreations" target="_blank">
+        <i class="fab fa-instagram"></i>
+    </a>
+
+    <a href="tel:+917592841880">
+        <i class="fas fa-phone"></i>
+    </a>
+
+    <a href="https://maps.app.goo.gl/YOURMAPLINK" target="_blank">
+        <i class="fas fa-location-dot"></i>
+    </a>
+
+</div>
+
+<!-- CONTACT -->
+
+<section id="contact" class="section">
+
+    <h2>Connect With Us</h2>
+
+    <div class="socials">
+
+        <a href="https://wa.me/917592841880" target="_blank">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+
+        <a href="https://instagram.com/monowalkercreations" target="_blank">
+            <i class="fab fa-instagram"></i>
+        </a>
+
+        <a href="tel:+917592841880">
+            <i class="fas fa-phone"></i>
+        </a>
+
+        <a href="https://maps.app.goo.gl/YOURMAPLINK" target="_blank">
+            <i class="fas fa-location-dot"></i>
+        </a>
+
+    </div>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
